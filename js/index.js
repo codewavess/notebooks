@@ -14,7 +14,7 @@ $(document).on('click','.delete-notebook',function(){
   noteArr.splice($(this).parent().find('.index').val(), 1);
   // save in local storage
   localStorage.setItem('noteBox', JSON.stringify(noteArr));
-  location.reload();
+  //location.reload();
   location.href = location.href;
 });
 
