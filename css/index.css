@@ -1,0 +1,123 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: Courier;
+  text-align: center;
+}
+body{
+  width:100%;
+  background: #111111;
+}
+.h1-title{
+  background: #eeeeee;
+}
+#notebook-section{
+  padding: 1%;
+}
+#notebook-wrapper{
+  overflow: hidden;
+  width: 22.5em;
+  margin: 0 auto;
+}
+.notebook{
+  position: relative;
+  float: left;
+  margin: 0.5em;
+  width: 10em;
+  height: 15em;
+  background: #333333;
+  border-right: 0.3em solid rgba(255,255,255,0.7);
+  border-bottom:0.3em solid rgba(255,255,255,0.5);
+  border-radius: 0.5em 1em 1em 0.5em;
+}
+#new-notebook{
+  margin: 0 auto;
+}
+.notebook h1{
+  font-size: 1em;
+  margin: 4em auto;
+  width: 65%;
+}
+.notebook-band{
+  position: absolute;
+  top:0;
+  left:85%;
+  background: #000000;
+  width: 5%;
+  height: 102%;
+  border-right: 0.2em solid rgba(255,255,255,0.1);
+}
+.notebook-title{
+  padding-top: 4em;
+  color: #eeeeee;
+}
+#inside-notebook-section{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+  background: #eeeeee;
+}
+
+.add-notebook{
+  display: none;
+}
+.new-notebook-button{
+  background: #333333;
+  color: #eeeeee;
+  cursor: pointer;
+}
+#notebook-name{
+  background: #333333;
+  color: #eeeeee;
+}
+#notebook-color{
+  border-radius: 1em;
+}
+#submit-noteboook{
+  background: #eeeeee;
+}
+#submit-notebook:hover{
+  background: #333333;
+  color: #eeeeee;
+  cursor: pointer;
+  border: 0.1em solid #eeeeee;
+}
+.orange-notebook{
+  background: #ef652a;
+}
+.blue-notebook{
+  background: #2965F1;
+}
+.yellow-notebook{
+  background: #ffe700;
+}
+.red-notebook{
+  background: #ef652a;
+}
+
+.show{
+  display: block;
+}
+.hide{
+  display: none;
+}
+.delete-notebook{
+  position: absolute;
+  display: none;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 2em;
+  text-align: left;
+  border-top: 1px dashed black;
+  border-radius: 0 0 0.5em 0.5em;
+  background: rgba(0, 0, 0, 0);
+}
+.delete-notebook:hover{
+  cursor: pointer;
+  box-shadow: 0 0 1.5em 0 black;
+  background: rgba(255, 0, 0, 1);
+}
